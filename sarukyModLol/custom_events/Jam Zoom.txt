@@ -1,0 +1,4 @@
+WARNING: Only works with Space Jam stage
+Zooms the camera
+
+Value 1: 1/0 = ON/OFF

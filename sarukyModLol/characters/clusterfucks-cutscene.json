@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				-230,
+				-9
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-232,
+				-9
+			],
+			"anim": "explosion",
+			"fps": 24,
+			"name": "explosion",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-232,
+				-9
+			],
+			"anim": "giggle",
+			"fps": 24,
+			"name": "giggle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cutscene/Cutscene_Clusterfucks",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		200,
+		77
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

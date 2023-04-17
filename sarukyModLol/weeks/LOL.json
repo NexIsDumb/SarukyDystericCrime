@@ -1,0 +1,32 @@
+{
+	"storyName": "Saruky's Dysteric Crime",
+	"difficulties": "Banger",
+	"hideFreeplay": false,
+	"weekBackground": "boom",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"TypicalCrowd",
+			"saruwave",
+			[
+				61,
+				101,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "SARUKYISHERELOL"
+}

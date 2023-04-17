@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-141,
+				-3
+			],
+			"fps": 24,
+			"anim": "giggle",
+			"indices": [],
+			"name": "giggle"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				931,
+				593
+			],
+			"fps": 24,
+			"anim": "explosion 1",
+			"indices": [],
+			"name": "explosion 1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				883,
+				577
+			],
+			"fps": 24,
+			"anim": "explosion 2",
+			"indices": [],
+			"name": "explosion 2"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-141,
+				-3
+			],
+			"fps": 24,
+			"anim": "look",
+			"indices": [],
+			"name": "look"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-110,
+				-3
+			],
+			"fps": 24,
+			"anim": "mic",
+			"indices": [],
+			"name": "mic"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-142,
+				-3
+			],
+			"fps": 24,
+			"anim": "nex",
+			"indices": [],
+			"name": "nex"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				326,
+				21
+			],
+			"fps": 24,
+			"anim": "throw",
+			"indices": [],
+			"name": "throw"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-109,
+				-3
+			],
+			"anim": "blink",
+			"fps": 24,
+			"name": "blink",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-139,
+				-16
+			],
+			"anim": "drink",
+			"fps": 24,
+			"name": "drink",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cutscene/Cutscene_Saruwave",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "saruwave",
+	"flip_x": false,
+	"healthbar_colors": [
+		61,
+		101,
+		255
+	],
+	"camera_position": [
+		30,
+		-10
+	],
+	"sing_duration": 4,
+	"scale": 1.3
+}

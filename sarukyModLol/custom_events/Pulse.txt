@@ -1,0 +1,4 @@
+Tween the Pulse alpha
+
+Value 1: Duration
+Value 2: The final alpha

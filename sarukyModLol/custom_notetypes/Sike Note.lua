@@ -1,7 +1,7 @@
 -- Script entirely made by Nex_isDumb
 local angles = {90, 180, 0, -90}
 local angAdder = {-90, 180, 0, 90}
-local distance
+local distance = 400
 function onCreatePost()
     for i = 0, getProperty('unspawnNotes.length') - 1 do
         if not getPropertyFromGroup('unspawnNotes', i, 'isSustainNote') and getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Sike Note' then

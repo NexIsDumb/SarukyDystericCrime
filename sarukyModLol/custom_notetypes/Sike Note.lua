@@ -23,7 +23,7 @@ end
 function onUpdate(elapsed)
     local lVal = math.max(0, math.min(1, elapsed * playbackRate * 27))
     for i = 0, getProperty('notes.length') - 1 do
-        if not getPropertyFromGroup('notes', i, 'isSustainNote') and getPropertyFromGroup('notes', i, 'noteType') == 'Sike Note' and getPropertyFromGroup('notes', i, 'distance') < 400 then
+        if not getPropertyFromGroup('notes', i, 'isSustainNote') and getPropertyFromGroup('notes', i, 'noteType') == 'Sike Note' and math.abs(getPropertyFromGroup('notes', i, 'distance')) < 400 then
             setPropertyFromGroup('notes', i, 'offsetX', getPropertyFromGroup('notes', i, 'offsetX') + (0 - getPropertyFromGroup('notes', i, 'offsetX')) * lVal)
             setPropertyFromGroup('notes', i, 'offsetAngle', getPropertyFromGroup('notes', i, 'offsetAngle') + (0 - getPropertyFromGroup('notes', i, 'offsetAngle')) * lVal)
         end
